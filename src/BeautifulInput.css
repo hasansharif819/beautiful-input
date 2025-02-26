@@ -1,0 +1,27 @@
+.beautiful-input {
+    margin-bottom: 1rem;
+  }
+  
+  .beautiful-input label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .beautiful-input input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .beautiful-input input.error {
+    border-color: red;
+  }
+  
+  .beautiful-input .helper-text {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    color: red;
+  }

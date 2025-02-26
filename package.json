@@ -1,0 +1,23 @@
+{
+  "name": "beautiful-input",
+  "version": "1.0.0",
+  "main": "dist/BeautifulInput.js",
+  "types": "dist/BeautifulInput.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "react-hook-form": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  }
+}
